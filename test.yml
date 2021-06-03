@@ -1,0 +1,10 @@
+---
+- name: Play 1
+  hosts: localhost
+  
+  tasks:
+     - name: Execute command 'date'
+       command: date
+    
+
+
